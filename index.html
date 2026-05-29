@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard UI</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            ARF
+        </div>
+
+        <ul class="menu">
+            <li class="active">Dashboard</li>
+            <li>Analytics</li>
+            <li>Users</li>
+            <li>Messages</li>
+            <li>Reports</li>
+            <li>Settings</li>
+        </ul>
+
+    </aside>
+
+    <!-- Main Content -->
+
+    <main class="main-content">
+
+        <header class="topbar">
+
+            <h1>Dashboard</h1>
+
+            <div class="profile">
+                <img src="https://avatars.githubusercontent.com/u/71831499?v=4" alt="profile">
+                <span>Admin</span>
+            </div>
+
+        </header>
+
+        <!-- Cards -->
+
+        <section class="cards">
+
+            <div class="card">
+                <h3>Total Users</h3>
+                <h2>12,450</h2>
+                <p>+12% this month</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Revenue</h3>
+                <h2>$24,300</h2>
+                <p>+18% this month</p>
+            </div>
+
+            <div class="card">
+                <h3>Orders</h3>
+                <h2>1,256</h2>
+                <p>+8% this month</p>
+            </div>
+
+            <div class="card">
+                <h3>Visitors</h3>
+                <h2>45,870</h2>
+                <p>+25% this month</p>
+            </div>
+
+        </section>
+
+        <!-- Analytics -->
+
+        <section class="analytics">
+
+            <div class="analytics-card">
+
+                <h3>Monthly Progress</h3>
+
+                <div class="progress-box">
+                    <span>Sales</span>
+                    <div class="progress">
+                        <div class="fill sales"></div>
+                    </div>
+                </div>
+
+                <div class="progress-box">
+                    <span>Users</span>
+                    <div class="progress">
+                        <div class="fill users"></div>
+                    </div>
+                </div>
+
+                <div class="progress-box">
+                    <span>Revenue</span>
+                    <div class="progress">
+                        <div class="fill revenue"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="analytics-card">
+
+                <h3>Profile</h3>
+
+                <img class="avatar" src="https://avatars.githubusercontent.com/u/71831499?v=4" alt="">
+
+                <h2>Admin User</h2>
+
+                <p>Dashboard Administrator</p>
+
+            </div>
+
+        </section>
+
+        <!-- Table -->
+
+        <section class="table-section">
+
+            <h2>Recent Activities</h2>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>Activity</th>
+                        <th>Status</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Ashiq</td>
+                        <td>Created Order</td>
+                        <td><span class="success">Completed</span></td>
+                        <td>27 May 2026</td>
+                    </tr>
+
+                    <tr>
+                        <td>Rafi</td>
+                        <td>New Registration</td>
+                        <td><span class="pending">Pending</span></td>
+                        <td>26 May 2026</td>
+                    </tr>
+
+                    <tr>
+                        <td>Rifat</td>
+                        <td>Payment Received</td>
+                        <td><span class="success">Completed</span></td>
+                        <td>25 May 2026</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>
